@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/@joeyroeters/firebase-oauth2-bride.svg)](https://badge.fury.io/js/@joeyroeters/firebase-oauth2-bride)
 [![npm downloads](https://img.shields.io/npm/dt/@joeyroeters/firebase-oauth2-bride.svg)](https://www.npmjs.com/package/@joeyroeters/firebase-oauth2-bride)
-npm publish --access public
+
 # Firebase Oauth2 Bride
 
 Firebase Oauth2 Bride is a development tool engineered to facilitate the integration of Firebase authentication within systems that traditionally support only OAuth2 protocols. This tool is particularly useful for environments like JetBrains IDEs (such as Rider, WebStorm, IntelliJ), which do not directly support Firebase Auth. Firebase Oauth2 Bride acts as a middle-man server that authenticates with Firebase using the "email + password" method and then formats the Firebase Auth token to match the expected OAuth2 standards.
