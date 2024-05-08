@@ -1,4 +1,3 @@
-[![npm version](https://badge.fury.io/js/@joeyroeters/firebase-oauth2-bride.svg)](https://badge.fury.io/js/@joeyroeters/firebase-oauth2-bride)
 [![npm downloads](https://img.shields.io/npm/dt/@joeyroeters/firebase-oauth2-bride.svg)](https://www.npmjs.com/package/@joeyroeters/firebase-oauth2-bride)
 
 # Firebase Oauth2 Bride
