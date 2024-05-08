@@ -1,3 +1,4 @@
+[![Node.js Package](https://github.com/JoeyRoeters/firebase-oauth2-bride/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/JoeyRoeters/firebase-oauth2-bride/actions/workflows/npm-publish-github-packages.yml)
 [![npm downloads](https://img.shields.io/npm/dt/@joeyroeters/firebase-oauth2-bride.svg)](https://www.npmjs.com/package/@joeyroeters/firebase-oauth2-bride)
 
 # Firebase Oauth2 Bride
