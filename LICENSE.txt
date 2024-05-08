@@ -1,0 +1,32 @@
+Custom Software License Agreement
+
+1. Definitions
+   "Software" refers to the compiled code, source files, associated media, data, and documentation, both printed and electronic, covered by this agreement.
+   "Licensee" refers to the individual or entity that has acquired the software legally.
+
+2. Grant of License
+   This License Agreement (the "Agreement") permits Licensee to use one copy of the Software, which may be installed on any number of machines. Each installed copy of the Software may be used on one local machine location by one or more individuals. This Agreement does not permit the installation or use on a network where the Software could be used by multiple machines or multiple users.
+
+3. Scope of License
+   (a) Licensee may install and use the Software solely for their personal or internal business purposes.
+   (b) Licensee may modify the source code of the Software for their personal or internal business use.
+   (c) Licensee may make copies of the Software in machine-readable form for backup purposes.
+
+4. Restrictions
+   (a) No Redistribution: Licensee shall not distribute, publish, make available to the public, or create derivative works based on the Software for commercial purposes, including but not limited to selling, licensing, or renting the Software or any part thereof.
+   (b) No Sublicensing: Licensee shall not sublicense, resell, rent, lease, or lend the Software.
+   (c) No Public Display: Licensee shall not display the Software publicly where it can be used or accessed by the public or other unauthorized users.
+
+5. Ownership
+   The Software is owned by Joey Roeters and is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties.
+
+6. Termination
+   This Agreement is effective until terminated. This Agreement will terminate automatically without notice from Joey Roeters if Licensee fails to comply with any provision of this Agreement. Upon termination, Licensee must destroy all copies of the Software.
+
+7. Disclaimer of Warranty
+   THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+8. Limitation of Liability
+   IN NO EVENT SHALL Joey Roeters BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF Joey Roeters HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+By installing, copying, or otherwise using the Software, you agree to be bound by the terms of this Agreement.
