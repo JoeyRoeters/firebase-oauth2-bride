@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoeyRoeters/firebase-oauth2-bride.git"
+    "url": "git+ssh://git@github.com/JoeyRoeters/firebase-oauth2-bride.git"
   },
   "publishConfig": {
-    "registry": "git@github.com:JoeyRoeters/firebase-oauth2-bride.git"
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "Joey Roeters",
   "email": "packages@joeyroeters.nl",
