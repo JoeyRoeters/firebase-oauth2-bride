@@ -1,4 +1,3 @@
-[![Node.js Package](https://github.com/JoeyRoeters/firebase-oauth2-bride/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/JoeyRoeters/firebase-oauth2-bride/actions/workflows/npm-publish-github-packages.yml)
 [![npm downloads](https://img.shields.io/npm/dt/@joeyroeters/firebase-oauth2-bride.svg)](https://www.npmjs.com/package/@joeyroeters/firebase-oauth2-bride)
 
 # Firebase Oauth2 Bride
@@ -59,6 +58,16 @@ For environments needing a more generalized setup:
     - Adjust the port using `--port` (default is `3000`).
     - Specify a different Google Service Account file with `--config`.
 
+### Endpoint
+
+The server exposes a single endpoint for authentication, which accepts `POST` requests with the following parameters:
+```curl
+curl --location 'http://localhost:3000/auth' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'username=example@internet.net' \
+--data-urlencode 'password=example'
+```
+
 ## Configuring JetBrains HTTP Client
 
 To set up the JetBrains HTTP client to use Firebase Oauth2 Bride, create a new environment in the client settings with the following configuration:
@@ -83,6 +92,16 @@ To set up the JetBrains HTTP client to use Firebase Oauth2 Bride, create a new e
 }
 ```
 Replace `{{port}}`, `{{firebase-email}}`, and `{{firebase-password}}` with your actual data.
+
+After configuring you can easily authenticate with Firebase using the JetBrains HTTP client, via "live templates", "File and Code Templates" or directly in the HTTP client.
+For example, to authenticate and get the token, you can use the following request:
+
+```http
+POST http://localhost/example
+Authorization: Bearer {{$auth.token("FirebaseAuth")}}
+```
+
+For more information on how to use the JetBrains HTTP client, refer to the [official documentation](https://www.jetbrains.com/help/rider/Http_client_in__product__code_editor.htmll).
 
 ## License
 

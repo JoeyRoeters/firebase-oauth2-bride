@@ -11,8 +11,12 @@ async function getGoogleServiceAccount() {
     return false;
   });
 
-  const configPath = args.config;
+  let configPath = args.config;
   if (isNpmPackage && !configPath) throw new Error('The --config option is required when running as an npm package.');
+
+  if (isNpmPackage) {
+    configPath = `../../../${configPath}`;
+  }
 
   return JSON.parse(
       await fs.promises.readFile(

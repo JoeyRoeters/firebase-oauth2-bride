@@ -1,6 +1,6 @@
 {
   "name": "@joeyroeters/firebase-oauth2-bride",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/server.js",
   "type": "commonjs",
   "scripts": {
@@ -16,7 +16,7 @@
   "author": "Joey Roeters",
   "email": "packages@joeyroeters.nl",
   "license": "SEE LICENSE IN LICENSE.txt",
-  "description": "A Node.js middleware tool designed to bridge Firebase Auth with standard OAuth2 protocols, specifically tailored for JetBrains IDEs and other environments requiring OAuth2 authentication",
+  "description": "A Node.js localhost middle-man tool designed to bridge Firebase Auth with standard OAuth2 protocols, specifically tailored for JetBrains IDEs and other environments requiring OAuth2 authentication",
   "keywords": [
     "firebase",
     "jetbrains",
