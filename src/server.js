@@ -5,7 +5,7 @@ const { getAuth, signInWithEmailAndPassword } = require('firebase/auth');
 const args = require('minimist')(process.argv.slice(2));
 
 async function getGoogleServiceAccount() {
-  const isNpmPackage = await fs.promises.access('../../package.json').then(() => {
+  const isNpmPackage = await fs.promises.access('../../../package.json').then(() => {
     return true;
   }).catch(() => {
     return false;
